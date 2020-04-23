@@ -1,0 +1,16 @@
+
+Test Case 1 – PTICore
+Open login page https://uat.my-canopy.com/#/operations/kpi-dashboard
+a. Record page load success and load time
+Enter credentials and press Login
+a. Credentials:
+https://uat.my-canopy.com/#/operations/kpi-dashboard
+login==dshaw@ptisecurity.com
+password==xxxxxxx
+b. Record page load success and load time
+Click on Locations
+a. Record page load success and load time
+Click on Devices
+a. Record page load success and load time
+Click on Incidents
+a. Record page load success and load time
