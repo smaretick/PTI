@@ -13,9 +13,9 @@ import datetime
 import unittest, time, re
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-desired_cap = {'browser': 'Firefox','browser_version': '62.0 beta','os': 'OS X','os_version': 'High Sierra','resolution': '1024x768','project': 'PTI','browserstack.debug': 'true'}
+desired_cap = {'browser': 'Firefox','browser_version': '76.0','os': 'OS X','os_version': 'High Sierra','resolution': '1024x768','project': 'PTI','browserstack.debug': 'true'}
 
-driver = webdriver.Remote(command_executor='http://smaretick3:gqzxib7a1Gwg8bbNAyNm@hub.browserstack.com:80/wd/hub',desired_capabilities=desired_cap)
+driver = webdriver.Remote(command_executor='http://scottmaretick2:MDKicy4nya2192zewKpz@hub.browserstack.com:80/wd/hub',desired_capabilities=desired_cap)
 start = time.time()
 print start
 #driver.get("http://ptisecurity.com/")
